@@ -28,16 +28,6 @@ This project evaluates the role of salvage biomass harvesting as a climate chang
   - Sawnwood (60 yr) → doubled storage, reduced emissions, and generated **net carbon credits** under RCP4.5–RCP8.5 by late century.  
 - **Overall:** Climate benefits of salvage harvesting are **highly dependent on product type and longevity**. Substitution effects (not modeled here) would likely increase the benefits.
 
-## Repository Structure
-- `/manuscript/` – Full article text and supplementary figures.  
-- `/data/` – Input data (forest inventory, climate projections, disturbance maps).  
-- `/scripts/` –  
-  - LANDIS-II input preparation  
-  - Salvage biomass model (external to LANDIS-II)  
-  - Python transport model (KD-tree, networkx)  
-  - R scripts for post-processing and visualization  
-- `/results/` – Model outputs, processed data, and figures.  
-
 ## Requirements
 - **LANDIS-II v7.1** with extensions (ForCS v3.1, BDA, Fire, Wind, Harvest).  
 - **R (≥4.0)** with packages: `ggplot2`, `data.table`, `patchwork`, `dplyr`.  
@@ -52,5 +42,4 @@ If you use this work, please cite the article:
 
 > Ameray A., Pureswaran D.S., Laganière J., Buchkowski R.W. (2025). *Quantifying the climate change mitigation potential of salvaging biomass under spruce budworm outbreaks in eastern boreal forests*.  
 
-## License
-This project is released under the MIT License (or adapt if you prefer CC-BY for academic sharing).
+
