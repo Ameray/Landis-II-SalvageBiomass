@@ -1,0 +1,61 @@
+LandisData "BDA Agent"
+BDAAgentName budworm1
+BDPCalibrator 1
+SRDMode mean
+>> the defoliation in this region start in 2006, so we assumed that the mortality may ouccurs in the 2010 (the timestep 1 of our simulation)
+StartYear 1      
+EndYear   7
+>> Regional Outbreak Inputs
+OutbreakPattern CyclicUniform
+MaxInterval 0
+MinInterval 0
+TimeSinceLastEpidemic 0
+TemporalType variablepulse
+MinROS 0
+MaxROS 3
+>> Dispersal Parameters
+Dispersal yes
+DispersalRate  20000
+EpidemicThresh 0.5
+InitialEpicenterNum 1
+OutbreakEpicenterCoeff 0.01
+OutbreakEpicenterThresh 1
+SeedEpicenter yes
+SeedEpicenterMax 1
+SeedEpicenterCoeff 0.01
+DispersalTemplate MaxRadius
+>> Neighborhood Resource Inputs
+NeighborFlag yes
+NeighborSpeedUp none
+NeighborRadius 1000
+NeighborShape uniform
+NeighborWeight 1
+>> Intensity Class Thresholds
+IntensityClass2_BDP 0.33
+IntensityClass3_BDP 0.67
+>>Ecoregion Modifiers, the SBW is more likly to occurs in the north ecoregions, only for the 1st outbreak to mimick the historic 1967-1988
+eco1SALO  0.25
+eco1LOSA  0.25
+eco2SALO  0.25
+eco3SALO  0.25
+eco3LOSA  0.25
+eco4SALO  0.25
+eco4LOSA  0.25
+eco5SALO  -0.1
+eco5LOSA  -0.1
+eco6SALO  -0.1
+eco6LOSA  -0.1
+eco7SALO  -0.25
+eco7LOSA  -0.25
+eco8SALO  -0.25
+eco8LOSA  -0.25
+eco9SALO  -0.25
+eco9LOSA  -0.25
+eco10SALO -0.25
+eco10LOSA -0.25
+BDASpeciesParameters
+>>SpeciesName     Age1 SRDProb1  Age2 SRDProb2  Age3 SRDProb3  Age1 VulnProb1  Age2 VulnProb2  Age3 VulnProb3  fuel
+SB  0 	0.25 	30 	0.75 	50 	0.8 	0 	0.2	30 	0.3 	50 	0.6	yes
+EB  0 	0.18 	30 	0.36 	50 	0.7 	0 	0.1	30 	0.2 	50 	0.4 	yes
+EN  0 	0.07 	30 	0.15 	50 	0.3 	20 	0.1 	30 	0.15 	999 	1	yes
+
