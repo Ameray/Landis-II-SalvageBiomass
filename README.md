@@ -37,9 +37,6 @@ This project evaluates the role of salvage biomass harvesting as a climate chang
 - **A. Ameray**, **D.S. Pureswaran**, **J. Laganière**, **R.W. Buchkowski**  
 - Canadian Forest Service, University of Western Ontario, Groupe Canalytics
 
-## Citation
-If you use this work, please cite the article:  
 
-> Ameray A., Pureswaran D.S., Laganière J., Buchkowski R.W. (2025). *Quantifying the climate change mitigation potential of salvaging biomass under spruce budworm outbreaks in eastern boreal forests*.  
 
 
