@@ -1,4 +1,4 @@
-# Quantifying the Climate Change Mitigation Potential of Salvaging Biomass under Spruce Budworm Outbreaks
+# Landscape Carbon Trajectories After Spruce Budworm Outbreaks in Canada’s Eastern Boreal Forest: Effects of Salvage Intensity and Wood-Use Pathways 
 
 ## Overview
 This project evaluates the role of salvage biomass harvesting as a climate change mitigation strategy in the eastern Canadian boreal forest, particularly following **spruce budworm (SBW)** outbreaks. Using the **LANDIS-II forest landscape model** and its extensions, the study quantifies how directing SBW-killed biomass into **bioenergy** or **harvested wood products (HWP)** affects long-term carbon dynamics and net greenhouse gas emissions under multiple climate change scenarios (Baseline, RCP2.6, RCP4.5, RCP8.5).
